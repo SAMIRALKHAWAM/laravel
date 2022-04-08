@@ -1,0 +1,21 @@
+
+.card2{
+    width: 700px;
+    height: 835px;
+    background-color: rgba(255,207,28,0.62);
+    border-radius: 50px;
+    text-align: center;
+    border:1px solid #010d3f;
+    margin-left: 27%;
+    margin-bottom: 80px;
+
+}
+#log{
+    background-color: #010d3f;
+    color: white;
+}
+#reg{
+    background-color: #ffcf1c;
+    color: black;
+}
+

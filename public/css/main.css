@@ -1,0 +1,144 @@
+
+#loader {
+
+    border: 12px solid #f3f3f3;
+
+    border-radius: 50%;
+
+    border-top: 12px solid #444444;
+
+    width: 70px;
+
+    height: 70px;
+
+    animation: spin 1s linear infinite;
+
+}
+
+
+
+@keyframes spin {
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+
+
+.center {
+
+    position: absolute;
+
+    top: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add_product{
+    width: 700px;
+    height: 800px;
+background-color: rgba(255, 207, 28,0.62);
+text-align: center;
+margin:8% 0 0 27%;
+    margin-bottom: 70px;
+    border-radius: 50px;
+    text-align: center;
+    border:1px solid #010d3f;
+
+
+
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.option{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.private{
+    width: 20px;
+    background-color: khaki;
+}
+
+.product_box{
+
+    width:400px;
+    height: 400px;
+    background-color: rgba(255, 207, 28, 0.9);
+    display: inline-block;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.product_box:hover{
+    box-shadow: 3px 3px black;
+}
+.product_box2{
+    margin-left: auto;
+    margin-right: auto;
+    width:1010px;
+    height: 500px;
+
+    margin-bottom: 30px;
+
+}
+.pproduct{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+}
+.imgproduct{
+    margin-left: 50px;
+
+    width: 300px;
+    height: 200px;
+
+}
+.btn-primary1{
+    background-color: #010d3f;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-left: 150px;
+}
+.btn-primary1:hover{
+    background-color: gold;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    margin-left: 150px;
+cursor: pointer;
+
+}

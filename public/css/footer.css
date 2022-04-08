@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    background: #ffcf1c;
+    border-radius: 30px;
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #010d3f;
+}
+
+.pfooter {
+    font-size: 18px;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 10px;
+    left: 46%;
+}

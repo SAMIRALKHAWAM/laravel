@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #010d3f;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    z-index: 1;
+}
+
+.link {
+    width: 125px;
+    height: 50px;
+    float: left;
+    text-decoration: none;
+    background-color: #010d3f;
+    color: white;
+    text-align: center;
+}
+
+.link:hover,
+.link1:hover {
+    background-color: black;
+}
+
+.link:focus,
+.link1:focus {
+    background-color: #ffcf1c;
+    color: black;
+}
+
+.link1 {
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #010d3f;
+    color: white;
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 50px;
+}
